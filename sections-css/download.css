@@ -1,0 +1,30 @@
+.download-page {
+    padding-top:100px;
+    background: url('../img/last-sec-bg.svg') no-repeat bottom right;
+}
+.download-container {
+    display: flex;
+    padding-bottom: 100px;
+}
+.download-info{
+    width: 50%;
+}
+.download-info p{
+    margin: 50px 0;
+}
+.section-title {
+}
+.text {
+}
+.app-buttons {
+    display: flex;
+}
+.app-buttons img{
+    width: 200px;
+}
+.goggle-play {
+    
+}
+.app-store {
+    margin-left: 20px;
+}

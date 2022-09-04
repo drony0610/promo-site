@@ -1,0 +1,24 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 363 35" width="363" height="35">
+	<title>Header</title>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #e2eaed } 
+		.shp1 { fill: #feaa25 } 
+		.txt2 { font-size: 18px;line-height: 28px;fill: #242f51;font-weight: 400;font-family: "Poppins-Regular", "Poppins" } 
+		.txt3 { font-size: 18px;line-height: 28px;fill: #ffffff;font-family: "Font Awesome5 Pro Regular" } 
+	</style>
+	<g id="Header">
+		<g id="Main Text">
+			<g id="#1 Editiors Choice App of 2020">
+				<path id="Rectangle 2" class="shp0" d="M18.5 0L345.5 0C355.16 0 363 7.83 363 17.5C363 27.16 355.16 35 345.5 35L18.5 35C8.83 35 1 27.16 1 17.5C1 7.83 8.83 0 18.5 0Z" />
+				<path id="Rectangle 2 copy" class="shp1" d="M18.5 0L22.5 0C32.16 0 40 7.83 40 17.5C40 27.16 32.16 35 22.5 35L18.5 35C8.83 35 1 27.16 1 17.5C1 7.83 8.83 0 18.5 0Z" />
+				<text id="#1 Editiors Choice App of 2020" style="transform: matrix(1,0,0,1,48.913,24.111)" >
+					<tspan x="0" y="0" class="txt2">#1 Editiors Choice App of 2020</tspan>
+				</text>
+				<text id="" style="transform: matrix(1,0,0,1,11.913,24.111)" >
+					<tspan x="0" y="0" class="txt3"></tspan>
+				</text>
+			</g>
+		</g>
+	</g>
+</svg>

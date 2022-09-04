@@ -1,0 +1,100 @@
+
+.prices {
+    text-align: center;
+    padding: 100px;
+}
+.prices-container {
+}
+.prices-container h2 {
+    margin-bottom: 30px;
+}
+
+.prices-text {
+}
+.price-toggler {
+    cursor: default;
+    padding: 5px;
+    border-radius: 50px;
+    border: 1px solid var(--second-text-color);
+    display: flex;
+    width: 400px;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+.toggler-checkbox {
+    display: none;
+}
+.price-month, .price-year {
+    background: white;
+    padding: 20px;
+    border-radius: 50px;
+    width: 50%;
+    text-align: center;
+    
+}
+.prices-cards {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.price-card_item {
+    width: 300px;
+    margin: 0 20px;
+    padding-bottom: 10px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+}
+.price-card_item:nth-child(2) {
+    border:2px solid rgba(0, 0, 0, 0.1);
+}
+.price-card-top {
+    padding: 20px;
+    padding-top: 30px;
+    background: linear-gradient(to top, rgba(75, 86, 163, 0.1), rgb(255, 255, 255));
+    border-radius: 10px 10px 0 0 ;  
+}
+.price-card-top p{
+    margin-top: 0 !important;
+}
+.price-card-price, .price-card-price2 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.price-card-price span, .price-card-price2 span{
+    font-size: 14px;
+    color:var(--second-text-color)
+}
+.item-title {
+}
+.text {
+}
+.price-card-bottom {
+    margin-top:10px;
+    display: flex;
+    flex-direction: column;
+}
+.price-card-bottom li{
+    margin: 10px 0;
+    color:rgba(0, 0, 0, 0.3)
+}
+.price-card-btn {
+   display: block;
+   width: 230px;
+   margin: 20px auto;
+}
+.price-card-trial{
+    margin-bottom: 10px;
+    font-weight: medium;
+    color:var(--buttons-color);
+}
+.reg-btn {
+}
+
+.--toggledElement{
+    background: var(--buttons-color);
+    color: white;
+}

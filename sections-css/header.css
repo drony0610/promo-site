@@ -1,0 +1,48 @@
+.header {
+    height: 100vh;
+    background:url('../img/header-fig-2.png') center no-repeat,
+    url('../img/header-fig-1.png') center no-repeat,
+    url('../img/header-town.png') bottom/100% no-repeat;
+}
+.header-container {
+    padding-top: 100px;
+    display: flex;
+    height: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.header-left, .header-right {
+    width: 50%;
+    height: 100%;
+}
+
+.header-right img{
+    display: block;
+    margin-left: auto;
+    position: relative;
+
+}
+
+.header-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.header-left h1,p{
+    margin-top: 15px;
+}
+.header-buttons {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+}
+.reg-btn {
+}
+.demo-btn {
+    margin-left: 20px;
+    color: var(--buttons-color);
+}
+.first-place{
+    width: 320px;
+}

@@ -1,0 +1,75 @@
+/* MAIN STYLES COLORS FONTS___________________________________ */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800;900&display=swap');
+@import url('sections-css/header.css');
+@import url('sections-css/menu.css');
+@import url('sections-css/partners.css');
+@import url('sections-css/features.css');
+@import url('sections-css/prices.css');
+@import url('sections-css/testiminal.css');
+@import url('sections-css/faq.css');
+@import url('sections-css/download.css');
+
+:root{
+    --main-text-color:#242F51;
+    --second-text-color:#6C6E73;
+    --buttons-color:#2500F9;
+    --red-text-color:#F8949F;
+    --green-text-color:#55A270;
+    --blue-text-color:#4076FF;
+
+    --h1-font-size: 60px;
+    --h2-font-size: 36px;
+    --h3-font-size: 20px;
+    --p-font-size:18px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: none;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+}
+.site-container{
+    
+    display: flex;
+    flex-direction: column;
+}
+.section-container{
+    padding-top: 100px;
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+.main-title{
+    color: var(--main-text-color);
+    font-size: var(--h1-font-size);
+}
+.section-title{
+    color: var(--main-text-color);
+    font-size: var(--h2-font-size);
+}
+.item-title{
+    color: var(--main-text-color);
+    font-size: var(--h3-font-size);
+}
+.text{
+    color: var(--second-text-color);
+    font-size: var(--p-font-size);
+}
+a{
+    text-decoration: none;
+    color:var(--second-text-color);
+}
+.reg-btn{
+    padding: 10px 30px;
+    background: var(--buttons-color);
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+.footer{
+    background: #09142E;
+    height: 500px;
+}

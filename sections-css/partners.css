@@ -1,0 +1,16 @@
+.partners {
+   padding: 100px 0;
+    text-align: center;
+}
+
+.partners-list {
+    display: flex;
+    justify-content: center;
+}
+.partners-text{
+    margin-bottom: 20px;
+}
+
+.partner-item {
+    margin: 30px;
+}

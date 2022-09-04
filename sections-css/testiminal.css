@@ -1,0 +1,30 @@
+.testiminal {
+    padding-bottom: 100px;
+}
+.testiminal-container {
+    display: flex;
+}
+.testiminal-container .item-title{
+    font-weight: bold;
+}
+
+.testiminal-left {
+    width: 50%;
+}
+.testiminal-right {
+    width: 50%;
+}
+.testiminal-left img{
+   margin-left: -300px;
+}
+.stars{
+    margin: 20px 0;
+}
+.ceo-info {
+    display: flex;
+    margin-top: 40px;
+}
+.ceo-info img{
+    margin-right: 20px;
+    
+}
